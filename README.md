@@ -1,2 +1,1 @@
-# passPluginMCDR
-MPWA联盟通行证激活插件MCDR版
+# MPWA联盟通行证客户端 - `MCDR Port`
