@@ -1,5 +1,6 @@
 from mcdreforged.api.command import SimpleCommandBuilder
 from mcdreforged.info_reactor.info import Info
+from mcdreforged.minecraft.rcon.rcon_connection import RconConnection
 import time
 PLUGIN_METADATA = {
     'id': 'login',
@@ -10,6 +11,7 @@ PLUGIN_METADATA = {
     'link': 'https://github.com',
 
 }
+rcon = RconConnection("127.0.0.123",38324,"123456")
 def on_load(server, old):
     buider = SimpleCommandBuilder()
     # buider.command("mpwa bind",bind)
