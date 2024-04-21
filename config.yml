@@ -55,10 +55,10 @@ plugin_directories:
 # Minecraft RCON setting
 # If enabled, plugins can use rcon to query commands from the server
 rcon:
-  enable: false
-  address: 127.0.0.1
-  port: 25575
-  password: password
+  enable: true
+  address: 0.0.0.0
+  port: 38324
+  password: 123456
 
 
 # If set to true, MCDR will detect if there's a new version every 24h
