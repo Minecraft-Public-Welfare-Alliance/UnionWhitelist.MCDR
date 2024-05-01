@@ -8,12 +8,12 @@ import requests
 import json
 import os
 PLUGIN_METADATA = {
-    'id': 'unionWhitelist',
+    'id': 'UnionWhitelist',
     'version': '1.0.0',
-    'name': 'login',
+    'name': 'UnionWhitelist',
     'description': 'MPWA联盟验证mcdr端',
     'author': 'ZQHD',
-    'link': 'https://github.com',
+    'link': 'https://github.com/Minecraft-Public-Welfare-Alliance/UnionWhitelist.MCDR',
 
 }
 jsonFile = open('setting.json', "r")
@@ -28,7 +28,7 @@ password = ""
 def on_load(server, old):
     buider = SimpleCommandBuilder()
     buider.command("!!mpwa ban <name> <description>", ban)  # 永封
-    buider.command("!!mpwa prosecute <level> <description>", prosecute)  # 处罚
+    buider.command("!!mpwa punish <level> <description>", prosecute)  # 处罚
     buider.arg("name", Text)
     buider.arg("description", Text)
     buider.arg("level", Integer)
