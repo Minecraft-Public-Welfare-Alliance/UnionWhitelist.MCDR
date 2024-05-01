@@ -1,0 +1,12 @@
+{
+  "setting": {
+    "serverName": "",
+    "accountName": "",
+    "password": ""
+  },
+  "rcon": {
+    "address": "",
+    "port": 38324,
+    "password": ""
+  }
+}
